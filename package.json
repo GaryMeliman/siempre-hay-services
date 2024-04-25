@@ -1,0 +1,9 @@
+{
+  "name": "siempre-hay-services",
+  "version": "0.0.1",
+  "description": "Servicios para aplicaciones siempre hay",
+  "main": "index.js",
+  "repository": "git@github.com:GaryMeliman/siempre-hay-services.git",
+  "author": "Gary Meliman <gary.meliman@outlook.com>",
+  "license": "MIT"
+}
