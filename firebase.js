@@ -12,14 +12,15 @@ const {
     REACT_APP_FIREBASE_MEASUREMENT_ID
 } = process.env;
 
+//TODO cambiar a env
 const firebaseConfig = {
-    apiKey: REACT_APP_FIREBASE_API_KEY,
-    authDomain: REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: REACT_APP_FIREBASE_PROYECT_ID,
-    storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: REACT_APP_FIREBASE_APP_ID,
-    measurementId: REACT_APP_FIREBASE_MEASUREMENT_ID
+    apiKey: "AIzaSyAwSQEN-WToiIKQWRjiV9nQbhFHcsZ1BEA",
+    authDomain: "siempre-hay-sol.firebaseapp.com",
+    projectId: "siempre-hay-sol",
+    storageBucket: "siempre-hay-sol.appspot.com",
+    messagingSenderId: "446897893262",
+    appId: "1:446897893262:web:847c9fa750af97c7537edf",
+    measurementId: "G-4ZZLBXMZBT"
 };
 const app = firebase.initializeApp(firebaseConfig);
 getAnalytics(app);
